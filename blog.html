@@ -2,209 +2,247 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <title>등촌 유흥 후기 | 블로그</title>
-    <meta name="description" content="등촌 유흥 후기 정보 사이트. 등촌 지역 검증된 유흥 업소 리뷰와 데이터 분석을 제공합니다. 전문가의 관점으로 엄선한 2024년 최신 정보를 확인하세요.">
-    <meta name="keywords" content="등촌 유흥 후기, 등촌 유흥, 등촌 밤문화, 등촌 술집, 유흥 정보, 등촌 업소 리뷰">
-    <link rel="canonical" href="https://t3b05-dc-night-rv.vercel.app/blog">
-    <meta property="og:title" content="등촌 유흥 후기 | 블로그">
-    <meta property="og:description" content="등촌 유흥 후기 정보 사이트. 등촌 지역 검증된 유흥 업소 리뷰와 데이터 분석을 제공합니다.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://t3b05-dc-night-rv.vercel.app/blog">
-    <meta property="og:image" content="https://t3b05-dc-night-rv.vercel.app/og-image.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="등촌 유흥 후기 | 블로그">
-    <meta name="twitter:description" content="등촌 유흥 후기 정보 사이트. 등촌 지역 검증된 유흥 업소 리뷰와 데이터 분석을 제공합니다.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <title>등촌 유흥 후기 블로그 — 현명한 밤문화 가이드</title>
+    <meta name="description" content="등촌 지역의 유흥 문화를 솔직하고 편안하게 이야기합니다. 현지인의 시선으로 본 등촌 밤문화의 이모저모를 블로그에서 만나보세요.">
+    <meta name="keywords" content="등촌 유흥, 등촌 밤문화, 등촌 후기, 등촌 블로그, 등촌 정보, 등촌 가이드, 밤문화 팁">
+    <link rel="canonical" href="https://deungchon-night-hot.link-hub.org/blog.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="등촌 유흥 후기 블로그 — 현명한 밤문화 가이드">
+    <meta property="og:description" content="등촌 지역의 유흥 문화를 솔직하고 편안하게 이야기합니다. 현지인의 시선으로 본 등촌 밤문화의 이모저모를 블로그에서 만나보세요.">
+    <meta property="og:url" content="https://deungchon-night-hot.link-hub.org/blog.html">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://deungchon-night-hot.link-hub.org/images/og-blog-main.jpg">
     <style>
-        /* 이전 페이지와 동일한 디자인 시스템 유지 — Street Brutalist + kr-neon-void */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        /* CSS Core - Reusing implicit design system styles */
+        :root {
+            --color-primary: #a87e6f; /* Warm grid accent */
+            --color-secondary: #d4c2b8;
+            --color-text: #333;
+            --color-background: #f9f7f6; /* Light, warm background */
+            --color-border: #e0e0e0;
+            --font-sans: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+            --spacing-unit: 1rem;
+            --max-width: 1200px;
+            --header-height: 4rem;
         }
         body {
-            font-family: 'Syne', 'Noto Sans KR', system-ui, -apple-system, sans-serif;
-            background: #0a0a0a;
-            color: #e6e6e6;
-            line-height: 1.7;
-            font-weight: 400;
-            letter-spacing: 0.02em;
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            color: var(--color-text);
+            background-color: var(--color-background);
+            margin: 0;
+            padding: 0;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
         }
-        a {
-            color: inherit;
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: var(--spacing-unit) calc(var(--spacing-unit) * 1.5);
+        }
+        .header {
+            background-color: #fff;
+            border-bottom: 1px solid var(--color-border);
+            padding: var(--spacing-unit) 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--color-primary);
             text-decoration: none;
         }
-        img {
-            max-width: 100%;
-            display: block;
-        }
-        /* 헤더 */
-        .header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 999;
-            background: #0a0a0a;
-            border-bottom: 2px solid #ff00ff;
-            padding: 0 2rem;
-            height: 70px;
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
             display: flex;
-            align-items: center;
-            justify-content: space-between;
+            gap: calc(var(--spacing-unit) * 1.5);
         }
-        .header__logo {
-            font-size: 1.6rem;
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            color: #ff00ff;
-            text-transform: uppercase;
-            text-shadow: 0 0 8px #ff00ff, 0 0 20px #ff00ff80;
+        .nav li a {
+            text-decoration: none;
+            color: var(--color-text);
+            font-weight: 500;
+            padding: 0.5rem 0;
+            transition: color 0.3s ease;
         }
-        .header__nav {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
+        .nav li a:hover, .nav li a.active {
+            color: var(--color-primary);
         }
-        .header__nav a {
+        .main-content {
+            flex-grow: 1;
+            padding: calc(var(--spacing-unit) * 2) 0;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: calc(var(--spacing-unit) * 2) 0;
+            text-align: center;
             font-size: 0.9rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            padding: 0.3rem 0;
-            border-bottom: 2px solid transparent;
-            transition: 0.2s;
-            color: #b0b0b0;
         }
-        .header__nav a:hover,
-        .header__nav a.active {
-            color: #00ffcc;
-            border-bottom-color: #00ffcc;
-            text-shadow: 0 0 6px #00ffcc;
-        }
-        /* 햄버거 */
-        .hamburger-menu {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-            padding: 4px;
-        }
-        .hamburger-menu span {
-            display: block;
-            width: 28px;
-            height: 3px;
-            background: #ff00ff;
-            border-radius: 2px;
-            transition: 0.3s;
-        }
-        .hamburger-menu.active span:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 6px);
-        }
-        .hamburger-menu.active span:nth-child(2) {
-            opacity: 0;
-        }
-        .hamburger-menu.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(5px, -6px);
-        }
-        /* 메인 */
-        .main {
-            padding-top: 90px;
-            flex: 1;
+        .footer .container {
             display: flex;
             flex-direction: column;
+            gap: var(--spacing-unit);
         }
-        .container {
-            max-width: 1200px;
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            opacity: 0.8;
+        }
+        .footer-links a:hover {
+            opacity: 1;
+        }
+        /* Specific styles for blog post */
+        .article-header {
+            text-align: center;
+            margin-bottom: calc(var(--spacing-unit) * 3);
+        }
+        .article-header h1 {
+            font-size: 3rem;
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-unit);
+            line-height: 1.2;
+        }
+        .article-meta {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .article-body {
+            max-width: 800px; /* Narrower for readability */
             margin: 0 auto;
-            padding: 0 2rem;
-            width: 100%;
+            padding: 0 var(--spacing-unit);
         }
-        /* 블로그 글 */
-        .blog-post {
-            padding: 3rem 0;
+        .article-body h2 {
+            font-size: 2rem;
+            color: var(--color-primary);
+            margin-top: calc(var(--spacing-unit) * 3);
+            margin-bottom: var(--spacing-unit);
+            border-bottom: 1px solid var(--color-border);
+            padding-bottom: 0.5rem;
         }
-        .blog-post__header {
-            margin-bottom: 2.5rem;
-            border-left: 6px solid #ff00ff;
-            padding-left: 1.5rem;
+        .article-body h3 {
+            font-size: 1.5rem;
+            color: var(--color-text);
+            margin-top: calc(var(--spacing-unit) * 2);
+            margin-bottom: calc(var(--spacing-unit) * 0.5);
         }
-        .blog-post__header h1 {
-            font-size: 2.8rem;
-            font-weight: 900;
-            letter-spacing: -0.04em;
-            line-height: 1.1;
-            color: #fff;
-            text-shadow: 0 0 10px #ff00ff40;
+        .article-body p {
+            margin-bottom: calc(var(--spacing-unit) * 1.5);
+            font-size: 1.1rem;
+            line-height: 1.8;
         }
-        .blog-post__header .post-meta {
-            margin-top: 0.8rem;
-            font-size: 0.9rem;
-            color: #888;
-            letter-spacing: 0.05em;
-            display: flex;
-            gap: 1.5rem;
-            flex-wrap: wrap;
+        .article-body ul {
+            list-style: disc;
+            margin-left: calc(var(--spacing-unit) * 2);
+            margin-bottom: calc(var(--spacing-unit) * 1.5);
         }
-        .blog-post__header .post-meta span {
-            background: #1a1a1a;
-            padding: 0.2rem 0.8rem;
-            border-radius: 2px;
-            border: 1px solid #333;
-        }
-        .blog-post__body {
+        .article-body li {
+            margin-bottom: calc(var(--spacing-unit) * 0.5);
             font-size: 1.05rem;
-            max-width: 800px;
+            line-height: 1.6;
         }
-        .blog-post__body h2 {
-            font-size: 1.8rem;
-            font-weight: 800;
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            color: #00ffcc;
-            text-shadow: 0 0 6px #00ffcc60;
-            border-bottom: 1px solid #333;
-            padding-bottom: 0.3rem;
+        /* Grid for content if needed, but for blog, linear flow is good */
+        .grid-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: calc(var(--spacing-unit) * 2);
+            margin-top: calc(var(--spacing-unit) * 3);
+            margin-bottom: calc(var(--spacing-unit) * 3);
         }
-        .blog-post__body h3 {
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-top: 2rem;
-            margin-bottom: 0.8rem;
-            color: #ff00ff;
+        .grid-item {
+            background-color: #fff;
+            border: 1px solid var(--color-border);
+            padding: calc(var(--spacing-unit) * 1.5);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
-        .blog-post__body p {
-            margin-bottom: 1.2rem;
-            color: #ccc;
-        }
-        .blog-post__body ul {
-            margin: 1rem 0 1.5rem 1.8rem;
-            list-style: square;
-            color: #b0b0b0;
-        }
-        .blog-post__body ul li {
-            margin-bottom: 0.6rem;
-        }
-        .blog-post__body strong {
-            color: #fff;
-        }
-        .blog-post__body .data-block {
-            background: #111;
-            border: 1px solid #ff00ff40;
-            border-radius: 2px;
-            padding: 1.5rem 2rem;
-            margin: 1.8rem 0;
-            font-family: 'Fira Mono', monospace;
-            font-size: 0.95rem;
-            color: #00ffcc;
-            box-shadow: 0 0 12px #ff00ff10;
-            overflow-x: auto;
-        }
-        .blog-post__body .data
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">등촌 나이트핫</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/reviews">등촌 유흥 후기</a></li>
+                    <li><a href="/blog" class="active">블로그</a></li>
+                    <li><a href="/community">커뮤니티</a></li>
+                    <li><a href="/contact">문의</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <article>
+                <header class="article-header">
+                    <h1>등촌의 밤, 솔직히 이야기해볼까요? – 현지인 피셜 등촌 유흥 즐기기</h1>
+                    <p class="article-meta">작성일: 2023년 10월 27일 | 등촌 나이트핫 에디터</p>
+                </header>
+
+                <div class="article-body">
+                    <p>안녕하세요, 등촌 밤문화에 관심 많은 여러분! 오늘은 등촌 지역의 유흥 문화를 좀 더 솔직하고 편안하게 이야기해보려고 해요. 복잡하게 생각할 것 없이, 등촌에도 즐길 거리가 많답니다. 현지인의 시선으로 등촌의 밤을 어떻게 즐길 수 있을지, 함께 알아볼까요?</p>
+
+                    <h2>등촌 유흥, 대체 뭘까요?</h2>
+                    <p>등촌이라는 이름만 들으면 조용하고 주거지 중심이라는 인상이 강하죠? 하지만 조금만 시선을 돌려보면, 등촌 또한 나름의 활기찬 밤문화를 가지고 있답니다. 거창한 테마파크 같은 곳은 아니지만, 소소하게 혹은 진하게 하루의 피로를 풀 수 있는 다양한 공간들이 숨어있어요.</p>
+                    <p>주로 찾아볼 수 있는 유흥 업종은 다음과 같아요. 물론, 특정 업소를 지칭하는 것이 아니라 일반적인 분위기를 말씀드리는 거예요.</p>
+                    <ul>
+                        <li><strong>노래방/가라오케:</strong> 친구들과 신나게 노래 부르며 스트레스 풀기 좋은 곳이죠. 분위기에 따라 주류를 함께 즐길 수 있는 곳도 많아요.</li>
+                        <li><strong>호프/바:</strong> 가볍게 맥주 한 잔, 칵테일 한 잔 하면서 대화 나누기 좋은 캐주얼한 공간부터, 좀 더 분위기 있는 곳까지 다양합니다.</li>
+                        <li><strong>기타 유흥시설:</strong> 좀 더 프라이빗하거나 특별한 경험을 원할 때 선택할 수 있는 다양한 형태의 유흥 업소들이 존재합니다.</li>
+                    </ul>
+
+                    <h2>현명하게 즐기는 등촌 밤문화 팁</h2>
+                    <p>어디든 그렇지만, 등촌의 밤문화도 어떻게 즐기느냐에 따라 만족도가 천차만별이겠죠? 좀 더 즐겁고 현명하게 등촌의 밤을 만끽할 수 있는 몇 가지 팁을 드릴게요.</p>
+
+                    <h3>1. 방문 전, '나만의 기준'을 세워보세요</h3>
+                    <p>막연히 "좋은 곳"을 찾는 것보다, 어떤 분위기에서 누구와 함께하고 싶은지 미리 생각해두면 좋아요. 조용한 대화를 원하시는지, 신나는 분위기를 찾으시는지, 아니면 특별한 경험을 원하시는지에 따라 선택지가 달라지니까요.</p>
+                    <ul>
+                        <li><strong>친구들과의 모임:</strong> 시끌벅적하게 즐길 수 있는 노래방이나 캐주얼한 호프집이 제격일 수 있어요.</li>
+                        <li><strong>연인과의 데이트:</strong> 분위기 좋은 바나 와인바를 찾아보시는 건 어떨까요?</li>
+                        <li><strong>혼자만의 시간:</strong> 조용한 펍에서 맥주 한 잔하며 생각에 잠기거나, 가볍게 즐길 수 있는 곳을 추천해요.</li>
+                    </ul>
+
+                    <h3>2. '분위기'와 '가격대'는 미리 파악!</h3>
+                    <p>등촌에는 다양한 스펙트럼의 업소들이 있어요. 방문 전에 온라인 검색이나 주변 지인의 이야기를 통해 대략적인 분위기와 가격대를 파악해두면 예기치 않은 당황스러움을 줄일 수 있습니다. 너무 비싸지도, 너무 저렴하지도 않은, 딱 나에게 맞는 곳을 찾는 게 중요하죠.</p>
+
+                    <h3>3. '안전'과 '매너'는 기본 중의 기본!</h3>
+                    <p>어디서든 즐거운 시간을 보내기 위해서는 안전과 매너가 필수입니다. 과도한 음주나 타인에게 불쾌감을 줄 수 있는 행동은 삼가고, 서로를 존중하는 마음으로 밤문화를 즐겨야 해요. 등촌의 밤을 더욱 빛나게 하는 건 바로 여러분의 성숙한 태도라는 점, 잊지 마세요!</p>
+
+                    <h2>오해와 진실 - 등촌 유흥에 대한 솔직한 이야기</h2>
+                    <p>간혹 밤문화에 대해 막연한 환상을 가지거나, 반대로 부정적인 편견을 가지는 경우도 있는데요. 등촌의 유흥 역시 우리의 일상 속 즐거움의 한 부분이라고 생각하는 것이 좋아요. 무조건적인 기대보다는, 내가 어떤 즐거움을 얻고 싶은지에 집중하고, 그에 맞는 선택을 하는 것이 중요하죠.</p>
+                    <p>온라인의 정보도 좋지만, 때로는 직접 발품을 팔아 분위기를 느껴보는 것도 좋은 방법이에요. 등촌은 여러분의 생각보다 훨씬 다양한 매력을 가진 곳이랍니다.</p>
+
+                    <p>등촌의 밤은 우리에게 새로운 활력과 즐거움을 줄 수 있는 공간이에요. 중요한 건, 자신에게 맞는 방식으로 현명하게 즐기는 것이겠죠? 오늘 제가 드린 팁들이 여러분의 등촌 밤문화 탐험에 작은 도움이 되었으면 좋겠습니다. 즐거운 밤 되세요!</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 등촌 나이트핫. 모든 권리 보유.</p>
+            <div class="footer-links">
+                <a href="/privacy">개인정보처리방침</a>
+                <a href="/terms">이용약관</a>
+                <a href="/sitemap">사이트맵</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
